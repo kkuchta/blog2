@@ -6,3 +6,12 @@ TODO:
 
 - Clean up the \_config.yml
   - See if the feed plugin is necessary.
+- Mobile friendly
+  - Probably want to set up a little header with my name and a popover hamburger menu (mobile only)
+    - Good examples:
+      - https://www.stavros.io/
+      - https://blog.alicegoldfuss.com/
+      - https://www.duckbillgroup.com/
+      - https://minimaxir.com/
+    - Or I could do a static menu like this:
+      - https://wizardzines.com/faq/
