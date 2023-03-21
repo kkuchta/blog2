@@ -51,6 +51,7 @@ body{
   color: var(--black);
   background-color: var(--white);
   font-family: var(--bodyfont);
+  line-height: 1.6em;
 }
 a{
   text-decoration: none;
@@ -78,6 +79,26 @@ a {
 }
 hr {
   border: 7.5px solid var(--gray2)
+}
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+pre code {
+  font-size: $baseFontSize * 0.8;
+  baselineheight: $baseFontSize * 0.8;
+}
+ul, ol {
+  margin-left: 24px;
+}
+li {
+  margin-top: 0.6em;
+}
+ul li {
+  list-style: disc;
+}
+ol li {
+  list-style: decimal;
 }
 
 /* Header */
@@ -111,6 +132,11 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 0;
+}
+.menu li {
+  list-style: none;
+  margin-top: 10px;
 }
 .nav .menu .divider {
   opacity: 0.1;
@@ -206,7 +232,7 @@ hr {
 @media (min-width: 768px) {
   body {
     display: flex;
-    font-size: 18px;
+    font-size: 20px;
   }
   .nav-column {
     min-width: 400px;
@@ -215,6 +241,7 @@ hr {
   }
   .content-column {
     padding: 24px;
+    padding-right: 32px;
   }
   .header {
     border: 15px solid var(--black);
