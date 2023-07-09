@@ -39,6 +39,7 @@
   --gray2: #eee;
   --gray5: #ccc;
   --linkblue: #0088cc;
+  --linkblue2: #abd7ed;
   --bodyfont: "PT Sans", Impact, Arial, sans-serif;
   --titlefont: "Bevan", Georgia, serif;
 } /* variables*/
@@ -80,8 +81,16 @@ h1, h2, h3 {
 a {
   color: var(--linkblue);
 }
+a:hover {
+  filter: brightness(85%);
+  text-decoration: underline;
+}
 hr {
-  border: 7.5px solid var(--gray2)
+  border: 7.5px solid var(--gray2);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
 }
 p {
   margin-top: 1em;
@@ -165,8 +174,6 @@ ol li {
   text-align: center;;
 }
 .menu a:hover{
-    filter: brightness(85%);
-    text-decoration: underline;
   /* background-color: var(--gray); */
   /* color: white; */
 }
@@ -269,6 +276,7 @@ ol li {
     /* float: right; */
     width: fit-content;
     border: none;
+    transition: none;
     /* background-color: transparent; */
   }
   .menu {
@@ -296,7 +304,9 @@ ol li {
     transition: all 0.10s ease-in-out;
   }
   a.logo:hover{
-    filter: brightness(85%);
+    /* filter: brightness(85%); */
+    color: black;
+    text-decoration: none;
   }
   pre.highlight {
     max-width: 65vw;
@@ -339,21 +349,41 @@ ol li {
 .home .rest {
   margin-top: 8px;
   padding-left: 32px;
+  padding-right: 32px;
 }
 .home .rest p {
   margin: 1em 0;
 }
-.home .rest hr {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-}
 .home .rest .post-summary {
   margin-top: 24px;
+}
+.home .rest .post-summary h2{
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .home .rest .post-summary h2 {
+    text-align: left;
+  }
 }
 /* .home .rest .divider {
   border-width: 7px;
   align-self: center;
   width: 50%;
 } */
+
+/** Page Layout **/
+.page h1 {
+  /* margin-top: 16px; */
+  margin-bottom: 16px;
+  line-height: 1.6em;
+}
+.page h2 {
+  margin-top: 20px;
+  font-size: 26px;
+}
+.page h3 {
+  font-size: 20px;
+}
+.page .github a {
+  color: var(--linkblue2);
+}
