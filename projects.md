@@ -4,7 +4,7 @@ layout: page
 
 # Projects
 
-These are my mostly-serious personal projects that intended to solve some real problem or another.
+These are my mostly-serious personal projects that intended to solve some real problem or another.  I'm probably better-known for my [silly hacks](/hacks).
 
 ## [The Twitter Book, 2022](https://twitter.com/QuinnyPig/status/1610317856876683264) <span class='github'>[Github](https://github.com/kkuchta/secret_twitter_book)</span>
 
@@ -73,7 +73,7 @@ I wanted to play around with canvas, so I drew a ball. Then I made it move. Then
 
 This is pretty silly- it's just a wall of random images from Imgur.com (an image-hosting site). It has infinite scrolling, zoom-hover (which was a little tricky to make work nicely without covering the page and whatnot), semi-intelligent tiling, and a mode that replaces all the images with kittens. That last one is because, since these are truly random images, some of them are occasionally NSFW and I wanted to be able to be able to work on this in public places.
 
-August 2013: I recently started a job using coffeescript and backbone. To refamiliarize myself with these, I rebuild the wall of imgur in with them.
+August 2013: I recently started a job using coffeescript and backbone. To refamiliarize myself with these, I rebuilt the wall of imgur in with them.
 
 May 2015: Wall of Imgur (renamed to wallopics.com) was quite popular on reddit. Then, eventually, Imgur decided to shut it down by blocking wallopics.com as a referrer. See the [writeup](/2015/05/wallopics-is-dead/) for more details. Moving this to the graveyard, but you can still use the compiled site on [github raw](https://rawgithub.com/kkuchta/RandomImagur2/master/index.html).
 

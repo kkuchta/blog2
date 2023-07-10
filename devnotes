@@ -6,7 +6,7 @@ TODO:
 
 - Clean up the \_config.yml
   - See if the feed plugin is necessary.
-- Mobile friendly
+- X Mobile friendly
   - Probably want to set up a little header with my name and a popover hamburger menu (mobile only)
     - Good examples:
       - https://www.stavros.io/
@@ -18,6 +18,10 @@ TODO:
 - Set up a proper 404 page and route whatever hosting I use to it.
 - Set up the archive stylings.
 - Do the other main pages
-- Syntax highlighting
+  - X projects
+  - x Hacks
+  - Resume
+  - Contact
+- X Syntax highlighting
 - Maybe go through and try to fix some old links.
 - Set up a script to print out the resume to pdf.
