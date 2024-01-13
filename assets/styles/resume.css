@@ -51,15 +51,22 @@
 
 .resume .name-box {
   border-radius: 20px;
-  border: 15px solid #222222;
+  border: 12px solid #222222;
   padding: 12px 24px;
   display: flex;
   flex-direction: column;
+  margin-top: 12px;
+  @media (min-width: 768px) {
+    border-width: 15px;
+    margin-top: inherit;
+  }
 }
 .resume .name-box h1 {
   font-weight: normal;
-  font-size: 22px;
+  font-size: 20px;
+  margin-bottom: 12px;
   @media (min-width: 768px) {
+    margin-bottom: inherit;
     font-size: 40px;
   }
 }
@@ -69,6 +76,8 @@
 .resume .name-box .contact-info {
   display: flex;
   font-size: 16px;
+  flex-direction: column;
+  line-height: 20px;
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: center;
