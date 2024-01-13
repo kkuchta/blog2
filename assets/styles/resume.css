@@ -1,0 +1,77 @@
+.resume {
+  width: calc(100% - 32px);
+  margin-left: 16px;
+  @media (min-width: 768px) {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.resume .floater {
+  border: 4px solid #eee;
+  background-color: white;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px 20px 5px 20px;
+  @media (min-width: 768px) {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 5px 10px 5px 10px;
+  }
+  @media print {
+    display: none;
+  }
+}
+.resume .floater ul, .resume .floater li  {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; 
+}
+.resume .floater ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+.resume .center-content {
+  margin-left: 0px;
+  @media (min-width: 768px) {
+    padding-top: 10px;
+    margin-left: 150px;
+  }
+  @media print {
+    margin-left: 0px; 
+    max-width: 8in;
+  }
+}
+
+.resume .name-box {
+  border-radius: 20px;
+  border: 15px solid #222222;
+  padding: 12px 24px;
+  display: flex;
+  flex-direction: column;
+}
+.resume .name-box h1 {
+  font-weight: normal;
+  font-size: 22px;
+  @media (min-width: 768px) {
+    font-size: 40px;
+  }
+}
+.resume .name-box .email-part {
+  color: #aaa;
+}
+.resume .name-box .contact-info {
+  display: flex;
+  font-size: 16px;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+  }
+}
