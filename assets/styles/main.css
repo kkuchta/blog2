@@ -252,7 +252,7 @@ ol li {
 }
 
 /* Responsiveness */
-@media (min-width: 768px) {
+@media (min-width: 670px) {
   body {
     display: flex;
     font-size: 20px;
@@ -366,7 +366,7 @@ ol li {
 .home .rest .post-summary {
   margin-top: 24px;
 }
-@media (min-width: 768px) {
+@media (min-width: 670px) {
   .home .rest .post-summary h2 {
     text-align: left;
   }

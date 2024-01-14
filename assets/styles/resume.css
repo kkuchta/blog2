@@ -1,20 +1,24 @@
 .resume {
   width: calc(100% - 32px);
   margin-left: 16px;
-  @media (min-width: 768px) {
+  @media (min-width: 670px) {
     margin: 0;
     width: 100%;
     display: flex;
     justify-content: center;
   }
 }
+@media print {
+  @page { margin: 0; }
+  body { margin: 0; }
+ }
 .resume .floater {
   border: 4px solid #eee;
   background-color: white;
   margin: 5px;
   border-radius: 10px;
   padding: 5px 20px 5px 20px;
-  @media (min-width: 768px) {
+  @media (min-width: 670px) {
     position: absolute;
     left: 10px;
     top: 10px;
@@ -33,13 +37,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  @media (min-width: 768px) {
+  @media (min-width: 670px) {
     display: block;
   }
 }
 .resume .center-content {
   margin-left: 0px;
-  @media (min-width: 768px) {
+  @media (min-width: 670px) {
     padding-top: 10px;
     margin-left: 150px;
   }
@@ -56,7 +60,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 12px;
-  @media (min-width: 768px) {
+  @media (min-width: 670px) {
     border-width: 15px;
     margin-top: inherit;
   }
@@ -65,7 +69,7 @@
   font-weight: normal;
   font-size: 20px;
   margin-bottom: 12px;
-  @media (min-width: 768px) {
+  @media (min-width: 670px) {
     margin-bottom: inherit;
     font-size: 40px;
   }
@@ -78,9 +82,14 @@
   font-size: 16px;
   flex-direction: column;
   line-height: 20px;
-  @media (min-width: 768px) {
+  @media (min-width: 670px) {
     flex-direction: row;
     justify-content: center;
     gap: 14px;
   }
+  /* @media print {
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+  } */
 }
