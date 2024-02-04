@@ -6,9 +6,17 @@ layout: page
 
 In my professional life, I tend to stick to clear, non-clever code. So when I go home at night, I write terrible things. Here are some of them.
 
-## DRuby Microservices <span class='github'>[[github]](https://github.com/kkuchta/druby)</span>
+## DRuby Microservices, 2022 <span class='github'>[[github]](https://github.com/kkuchta/druby)</span>
 
 Everyone knows microservices are great. Everyone knows that in ruby, everything's an object. What if every single object in ruby (down to arrays, strings, and integers) was a proxy object to a remote microservice backed by, say, an AWS Lambda? Well this terrible project (better explained in [this rubyconf talk](https://www.youtube.com/watch?v=nrJP9Qr2AXQ)) does exactly that! It's a lot of ruby metaprogramming and a bit serverless AWS Lambda stuff.
+
+## Vequals, 2021 <span class='github'>[[github]](https://github.com/kkuchta/vequals)</span>
+
+Most programming languages have leftward assignment (`x = 3`). Ruby, at one point, had rightward assignment (`3 => x`). I just took the obvious next step of hacking _vertical_ assignment into ruby using a terrifying combination metaprogramming hacks better explained in my [rubyconf talk here](https://www.youtube.com/watch?v=B2nBB70uy6M).
+
+## TSpell, 2020 <span class='github'>[[github]](https://github.com/kkuchta/Tspell)</span>
+
+I created a horrifying compile-time spell checker by abusing recursive types in Typescript.
 
 ## [TabDB, 2019](https://tabdb.io/) <span class='github'>[[github]](https://github.com/kkuchta/tabdb)</span>
 
