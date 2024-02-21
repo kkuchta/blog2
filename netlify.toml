@@ -3,3 +3,11 @@
   publish = "_site"
   command = "make build"
 
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    cache-control = '''
+    public,
+    max-age=60'''
+
