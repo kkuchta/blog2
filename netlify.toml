@@ -9,10 +9,4 @@
   [headers.values]
     cache-control = '''
     public,
-    max-age=60'''
-[[headers]]
-  for = "/assets/fonts/*"
-  [headers.values]
-    cache-control = '''
-    public,
     max-age=3600'''
