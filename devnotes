@@ -16,7 +16,7 @@ TODO:
     - Or I could do a static menu like this:
       - https://wizardzines.com/faq/
 - Set up a proper 404 page and route whatever hosting I use to it.
-- Set up the archive stylings.
+- X Set up the archive stylings.
 - Do the other main pages
   - X projects
   - x Hacks
@@ -28,6 +28,3 @@ TODO:
 - Update everything to 'kevin highwater'
 - Create something to deploy to kevinkuchta to do 301 (permenant) redirects to kevinhighwater.com
 - X Set up publishing pipeline as make action
-
-- Resume work
-  - Mobile jank
