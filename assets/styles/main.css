@@ -164,8 +164,17 @@ ol li {
 .logo {
   display: inline-block;
   color: var(--black);
-  font-size: 60px;
   margin-left: 10px;
+  font-family: var(--titlefont);
+  font-size: 32px;
+}
+
+.nee {
+  /* display: none !important; */
+  font-size: 24px;
+  display: block;
+  color: var(--gray);
+  margin-top: 2px;
 }
 
 /* Nav menu */
@@ -359,7 +368,7 @@ ol li {
   }
 
   a.logo {
-    font-size: 72px;
+    font-size: 52px;
     line-height: 0.9em;
     transition: all 0.10s ease-in-out;
   }
@@ -384,10 +393,6 @@ ol li {
   }
 }
 
-.logo {
-  font-family: var(--titlefont);
-  font-size: 36px;
-}
 
 
 /** Home Page **/
