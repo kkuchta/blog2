@@ -5,3 +5,5 @@ generate-resume-pdf:
 	sh build_resume_pdf.sh
 build:
 	bundle exec jekyll build
+install:
+	bundle install
