@@ -11,7 +11,7 @@ I've noticed two things recently:
 
 So: epistemologically speaking, I think my best path towards having a well-informed opinion about what AI-based coding is and is not good for is to "Get Gud" as the kids would say.
 
-This project is my first pass at that.
+[kttt.io](https://kttt.io) is my first pass at that.
 
 <!--break-->
 
@@ -84,7 +84,7 @@ I also need a better way for the AI to evaluate the results of its work in the b
 
 AI-driven development is much better than I gave it credit for, though I still have a ways to climb up the skill curve here.
 
-Kriegspiel Tic Tac Toe exists and is kinda fun! I never wrote or read a line of code. It's... fun? I think? People seem to enjoy it for 3-4 games anyway!
+Kriegspiel Tic Tac Toe exists and is kinda fun! I never wrote or read a line of code. It's... fun? I think? People seem to enjoy it for 3-4 games anyway! It's react+typescript on express+node on fly.io with redis as a datastore.
 
 I definitely expected to hit a wall of complexity at some point where the AI just couldn't be useful. I hit a few walls that looked like that at first - bugs it couldn't fix or features it couldn't nail - but every time I got past it by improving my own context engineering skill. This isn't a particularly huge app, though, so the wall may still be there just out of sight.
 
