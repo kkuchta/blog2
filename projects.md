@@ -4,7 +4,11 @@ layout: page
 
 # Projects
 
-These are my mostly-serious personal projects that intended to solve some real problem or another.  I'm probably better-known for my [silly hacks](/hacks).
+These are my mostly-serious personal projects that intended to solve some real problem or another. I'm probably better-known for my [silly hacks](/hacks).
+
+## [Kriegspiel Tic Tac Toe](https://kttt.io) <span class='github'>[Github](https://github.com/kkuchta/kttt)</span>
+
+A tic-tac-toe variant where you can't see your opponent's moves. It's socket-based and multiplayer. I wanted to force myself to practice AI-driven coding, so this is 100% vibe-coded by Claude and Cursor. React/Typescript/Node/Express/Redis.
 
 ## [The Twitter Book, 2022](https://twitter.com/QuinnyPig/status/1610317856876683264) <span class='github'>[Github](https://github.com/kkuchta/secret_twitter_book)</span>
 
