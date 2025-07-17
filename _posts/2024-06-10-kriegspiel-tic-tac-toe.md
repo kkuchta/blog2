@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kriegspiel Tic Tac Toe"
+title: "Forcing Myself to Vibe Code"
 date: 2025-07-05
 ---
 
